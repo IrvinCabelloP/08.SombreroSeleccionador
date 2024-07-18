@@ -53,6 +53,7 @@ namespace _08.SombreroSeleccionador
             {
                 Console.WriteLine($"{puntaje.Key} : {puntaje.Value}");
             }
+            Console.WriteLine("\n");
 
             string casaGanadora = null;
             int puntajeMaximo = int.MinValue;
