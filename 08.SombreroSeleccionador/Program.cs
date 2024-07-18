@@ -48,7 +48,7 @@ namespace _08.SombreroSeleccionador
 
         public static void AsignaciónFinal()
         {
-            Console.WriteLine("Puntajes finales:");
+            Console.WriteLine("Puntaje final:");
             foreach (var puntaje in puntajes)
             {
                 Console.WriteLine($"{puntaje.Key} : {puntaje.Value}");
